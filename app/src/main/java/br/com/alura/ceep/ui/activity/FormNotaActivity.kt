@@ -16,6 +16,7 @@ import br.com.alura.ceep.model.Nota
 import br.com.alura.ceep.ui.dialog.FormImagemDialog
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
+import retrofit2.Retrofit
 
 class FormNotaActivity : AppCompatActivity() {
 
@@ -42,6 +43,7 @@ class FormNotaActivity : AppCompatActivity() {
                 configuraCarregamentoDeImagem()
             }
         }
+
 
     }
 
